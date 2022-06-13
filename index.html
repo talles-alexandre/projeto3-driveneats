@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="reset.css">
+  <link rel="stylesheet" href="style.css">
+  <title>DrivenEats</title>
+</head>
+
+<body>
+  <div class="barra-topo">
+    <h1>DrivenEats</h1>
+    <h2>Sua comida em 6 minutos</h2>
+
+  </div>
+
+
+
+  <div class="conteudo">
+    <p class="categoria">Primeiro, seu prato</p>
+
+    <div class="pratos">
+      <div class="prato" onclick="selecionarPrato(this,'Frango Yin Yang',10.00)">
+        <img src="/img/frango.png">
+        <p class="nome">Frango Yin Yang</p>
+        <p class="descricao">Um pouco de batata, um pouco de salada</p>
+        <p class="preco">R$ 10,00</p>
+        <div class="check">
+          <ion-icon name="checkmark-circle"></ion-icon>
+        </div>
+      </div>
+
+      <div class="prato" onclick="selecionarPrato(this,'Frango Yin Yang',11.00)">
+        <img src="/img/frango.png">
+        <p class="nome">Frango Yin Yang</p>
+        <p class="descricao">Um pouco de batata, um pouco de salada</p>
+        <p class="preco">R$ 11,00</p>
+        <div class="check">
+          <ion-icon name="checkmark-circle"></ion-icon>
+        </div>
+      </div>
+
+      <div class="prato" onclick="selecionarPrato(this,'Frango Yin Yang',12.00)">
+        <img src="/img/frango.png">
+        <p class="nome">Frango Yin Yang</p>
+        <p class="descricao">Um pouco de batata, um pouco de salada</p>
+        <p class="preco">R$ 12,00</p>
+        <div class="check">
+          <ion-icon name="checkmark-circle"></ion-icon>
+        </div>
+      </div>
+
+      <div class="prato" onclick="selecionarPrato(this,'Frango Yin Yang',13.00)">
+        <img src="/img/frango.png">
+        <p class="nome">Frango Yin Yang</p>
+        <p class="descricao">Um pouco de batata, um pouco de salada</p>
+        <p class="preco">R$ 13,00</p>
+        <div class="check">
+          <ion-icon name="checkmark-circle"></ion-icon>
+        </div>
+      </div>
+
+
+    </div>
+
+    <p class="categoria">Agora, sua bebida</p>
+
+    <div class="bebidas">
+
+      <div class="bebida" onclick="selecionarBebida(this,'Coquinha gelada', 4.00)">
+        <img src="/img/coca.png">
+        <p class="nome">Coquinha gelada</p>
+        <p class="descricao">Lata 150ml</p>
+        <p class="preco">R$ 4,00</p>
+        <div class="check">
+          <ion-icon name="checkmark-circle"></ion-icon>
+        </div>
+      </div>
+
+      <div class="bebida " onclick="selecionarBebida(this,'Coquinha gelada', 5.00)">
+        <img src="/img/coca.png">
+        <p class="nome">Coquinha gelada</p>
+        <p class="descricao">Lata 150ml</p>
+        <p class="preco">R$ 5,00</p>
+        <div class="check">
+          <ion-icon name="checkmark-circle"></ion-icon>
+        </div>
+      </div>
+
+      <div class="bebida" onclick="selecionarBebida(this,'Coquinha gelada', 6.00)">
+        <img src="/img/coca.png">
+        <p class="nome">Coquinha gelada</p>
+        <p class="descricao">Lata 150ml
+        <p class="preco">R$ 6,00</p>
+        <div class="check">
+          <ion-icon name="checkmark-circle"></ion-icon>
+        </div>
+
+      </div>
+
+      <div class="bebida" onclick="selecionarBebida(this,'Coquinha gelada', 7.00)">
+        <img src="/img/coca.png">
+        <p class="nome">Coquinha gelada</p>
+        <p class="descricao">Lata 150ml
+        <p class="preco">R$ 7,00</p>
+        <div class="check">
+          <ion-icon name="checkmark-circle"></ion-icon>
+        </div>
+      </div>
+
+
+    </div>
+
+
+    <p class="categoria">Por fim, sua sobremesa</p>
+
+    <div class="sobremesas">
+
+      <div class="sobremesa" onclick="selecionarSobremesa(this,'Pudinzinho', 3.00)">
+        <img src="/img/pudim.png">
+        <p class="nome">Pudinzinho</p>
+        <p class="descricao">Fatia pequena de pudim</p>
+        <p class="preco">R$ 3,00</p>
+        <div class="check">
+          <ion-icon name="checkmark-circle"></ion-icon>
+        </div>
+      </div>
+
+      <div class="sobremesa" onclick="selecionarSobremesa(this,'Pudinzinho', 4.00)">
+        <img src="/img/pudim.png">
+        <p class="nome">Pudinzinho</p>
+        <p class="descricao">Fatia pequena de pudim</p>
+        <p class="preco">R$ 4,00</p>
+        <div class="check">
+          <ion-icon name="checkmark-circle"></ion-icon>
+        </div>
+      </div>
+
+      <div class="sobremesa" onclick="selecionarSobremesa(this,'Pudinzinho', 5.00)">
+        <img src="/img/pudim.png">
+        <p class="nome">Pudinzinho</p>
+        <p class="descricao">Fatia pequena de pudim</p>
+        <p class="preco">R$ 5,00</p>
+        <div class="check">
+          <ion-icon name="checkmark-circle"></ion-icon>
+        </div>
+      </div>
+
+      <div class="sobremesa" onclick="selecionarSobremesa(this,'Pudinzinho', 6.00)">
+        <img src="/img/pudim.png">
+        <p class="nome">Pudinzinho</p>
+        <p class="descricao">Fatia pequena de pudim</p>
+        <p class="preco">R$ 6,00</p>
+        <div class="check">
+          <ion-icon name="checkmark-circle"></ion-icon>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="barra-pedido">
+      <button class="botaopedido" onclick="finalizar()">
+        <p>Selecione os 3 itens<br>para fechar o pedido</p>
+      </button>
+
+    </div>
+
+
+    <script src="script.js"></script>
+    <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
+</body>
+
+
+</html>
